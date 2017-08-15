@@ -5,7 +5,7 @@ class Node {
 public:
 	char data;
 	Node *next;
-	Node(char el, Node *ptr =0)
+	Node(char el, Node *ptr = 0)
 	{
 		data = el; next = ptr;
 	}
